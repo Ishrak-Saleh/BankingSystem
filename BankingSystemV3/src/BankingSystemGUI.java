@@ -278,6 +278,7 @@ public class BankingSystemGUI extends JFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(350, 200);
         frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
         frame.setTitle("Banking System V3");
         frame.setVisible(true);
     }
